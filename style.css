@@ -1,0 +1,11 @@
+.pilt {
+    border-radius: 10%;
+    width: auto;
+}
+
+h1, h2 {
+    font-family: 'VT323', monospace;
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+}
