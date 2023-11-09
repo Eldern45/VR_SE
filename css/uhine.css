@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap');
 
-h1 {
+h1, h2 {
     font-family: 'VT323', monospace;
     font-size: 48px;
 }
 
 p {
     font-family: 'Roboto Mono', monospace;
+}
+
+.pilt {
+    border-radius: 10%;
+    width: auto;
 }
