@@ -3,7 +3,7 @@
 
 h1, h2 {
     font-family: 'VT323', monospace;
-    font-size: 48px;
+    font-size: 48px;  
 }
 
 p {
@@ -13,4 +13,23 @@ p {
 .pilt {
     border-radius: 10%;
     width: auto;
+}
+
+.h1-center {
+    text-align: center;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container div {
+    width: 45%;
 }
