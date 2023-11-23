@@ -6,6 +6,8 @@
     <title>VR-prillid</title>
     <link rel="stylesheet" href="css/uhine.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <script src="js/slider.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,21 +22,61 @@
             <div class="header__item header-button"><a href="AR.html"><span>Augmented VR</span></a></div>
             <div class="header__item header-button"><a href="non-immersive.html"><span>Non-Immersive VR</span></a></div>
             <div class="header__item header-button"><a href="collaborative.html"><span>Collaborative VR</span></a></div>
+            <div class="header__item header-button"><a href="mudelid.html"><span>Mudelid</span></a></div>
         </div>           
     </header>
     <main>
         <h1 class="h1-center">VR-prillide tüübid ja nende kasutusvõimalused</h1>
-        <div class="container">
-            <div>
+        <div class="divider">
+            <div class="divider-text">
                 <p>Tere tulemast meie saidile, mis on pühendatud virtuaalreaalsuse (VR) põnevale maailmale ja erinevat tüüpi VR-prillidele, 
                 mis pakuvad suurepäraseid võimalusi digitaalsesse ruumi sukeldumiseks. VR-tehnoloogia maailm kogeb iga päev uskumatuid 
                 arenguid ja meie ülesanne on aidata teil seda mitmekesisust mõista ja valida parim viis virtuaalmaailma sukeldumiseks.
                 Meie veebisaidilt leiate teavet selle kohta, milliseid võimalusi pakuvad erinevat VR-seadmete tüübid, samuti nende tüüpide näiteid.</p>
             </div>
-            <div>
-                <p>...</p>
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio buttons end-->
+
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="pictures/1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="pictures/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="pictures/3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="pictures/4.jpg" alt="">
+                    </div>
+                    <!--slide images end-->
+
+                    <!--automatic navigation start-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    <!--automatic navigation end-->
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
             </div>
-        </div>    
+        </div>  
     </main>
 </body>
 </html>

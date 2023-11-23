@@ -27,13 +27,3 @@ main {
     width: 95%;
     margin: 0 auto;
 }
-
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container div {
-    width: 45%;
-}
