@@ -27,3 +27,8 @@ main {
     width: 95%;
     margin: 0 auto;
 }
+
+.image-container {
+    display: flex;
+    gap: 10px; 
+}
