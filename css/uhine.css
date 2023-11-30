@@ -60,6 +60,10 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 
+li {
+    font-family: 'Roboto Mono', monospace;
+}
+
 .pilt {
     border-radius: 10%;
     width: auto;
