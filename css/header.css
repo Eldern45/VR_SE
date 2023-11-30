@@ -10,7 +10,7 @@ header {
 }
 
 .header__item{
-    padding: 10px 15px;
+    padding: 0px 15px;
     margin-left: 5px;
 }
 
@@ -24,15 +24,19 @@ header {
     color: #FFFFFF;
     text-align: center;
     font-size: 22px;
-    padding: 20px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
+    height: 65px;
 }
 
 .header-button a {
     text-decoration: none;
     color: black;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
 }
 
 .header-button span {
