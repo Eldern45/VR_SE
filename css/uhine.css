@@ -9,6 +9,9 @@ main {
     color: darkcyan;
     font-weight: bold;
     text-align: center;
+    text-shadow: 1px 1px black;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .background-image {
     background-image: url('../pictures/taust.jpg');
@@ -34,7 +37,7 @@ h2 {
 
 h3 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 17px
+    font-size: 19px
 }
 
 p {
@@ -43,6 +46,7 @@ p {
 
 li {
     font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
 }
 
 .pilt {
