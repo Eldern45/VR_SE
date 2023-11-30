@@ -3,6 +3,23 @@
 
 body {
     margin: 0;
+    
+}
+
+.background-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../pictures/taust.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    z-index: -2;
 }
 
 h1 {
@@ -29,6 +46,7 @@ p {
     width: auto;
 }
 
+
 .h1-center {
     text-align: center;
 }
@@ -36,6 +54,8 @@ p {
 main {
     width: 95%;
     margin: 0 auto;
+    color: #40D3DC;
+    text-shadow: 2px 2px black;
 }
 
 .image-container {
