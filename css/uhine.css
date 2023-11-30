@@ -1,43 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap');
 
-body, html {
+body {
     margin: 0;
-    padding: 0;
-    height: 100%;
 }
 
-.text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: #40a0dc5d;
-    color: black;
+main {
+    color: darkcyan;
     font-weight: bold;
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    
-    padding: 100%;
     text-align: center;
 }
 .background-image {
     background-image: url('../pictures/taust.jpg');
       /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    /* Full height */
-    height: 100%;
+    backdrop-filter: blur(8px);
 
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
-    width: 100%;
-    z-index: -1;
 
 }
 
@@ -72,22 +53,6 @@ li {
 
 .h1-center {
     text-align: center;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure the header stays on top */
-}
-
-main {
-    width: 95%;
-    margin-top: 60%;
-    color: #40D3DC;
-    text-shadow: 2px 2px black;
-    position: relative;
 }
 
 .image-container {

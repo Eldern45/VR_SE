@@ -1,3 +1,8 @@
+.text {
+    color: #40D3DC;
+    text-shadow: 1px 1px black;
+}
+
 .divider {
     display: flex;
 }
