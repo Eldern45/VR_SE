@@ -1,3 +1,10 @@
+.background-pealeht {
+    background-image: url(../pictures/back-pealeht.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .text {
     color: #40D3DC;
     text-shadow: 1px 1px black;
