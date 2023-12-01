@@ -22,17 +22,16 @@
     font-size: 20px;
 }
 
-
 .slider{
-    width: 705px;
-    height: 440px;
+    width: 47vw;
+    height: 28vw;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .slides{
     width: 500%;
-    height: 440px;
+    height: 28vw;
     display: flex;
 }
 
@@ -46,16 +45,16 @@
 }
 
 .slide img{
-    width: 705px;
-    height: 440px;
+    width: 47vw;
+    height: 28vw;
 }
 
-/*css for manual slide navigation*/
+
 
 .navigation-manual{
     position: absolute;
-    width: 705px;
-    margin-top: -40px;
+    width: 47vw;
+    margin-top: -2vw;
     display: flex;
     justify-content: center;
 }
@@ -92,14 +91,14 @@
     margin-left: -60%;
 }
 
-/*css for automatic navigation*/
+
 
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 705px;
+    width: 47vw;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 26vw;
 }
 
 .navigation-auto div{
